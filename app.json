@@ -1,0 +1,15 @@
+{
+  "name": "rn",
+  "displayName": "rn",
+  "expo": {
+    "name": "rn",
+    "slug": "rn",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "rnrn.rn.testrn"
+    }
+  }
+}
