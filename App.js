@@ -44,7 +44,7 @@ const store = createStore(rootReducer, applyMiddleware(thunk));
     <Provider store={store}>
     <PaperProvider theme={theme} >
   <NavigationContainer theme ={NavigationTheme}>
-    <Stack.Navigator initialRouteName="loginPage" screenOptions={{headerShown:false}}>
+    <Stack.Navigator initialRouteName="homePage" screenOptions={{headerShown:false}}>
     
       <Stack.Screen name="loginPage" component={loginPage} />
       <Stack.Screen name="homePage" component={homePage} />
